@@ -1,6 +1,6 @@
 <?php
 /**
- * Contao DownloadlistsBundle Bundle
+ * Contao Downloadlists Bundle
  *
  * @copyright 2018 agentur fipps e.K.
  * @author    Arne Borchert
@@ -39,9 +39,9 @@
 $GLOBALS['BE_MOD']['content']['Downloads'] = array(
     'tables' => array(
         'tl_dllist',
-        'tl_dllist_elements'
+        'tl_dllist_elements',
     ),
-    'icon' => 'bundles/fippsdownloadlists/assets/dllist.png',
+    'icon'   => 'bundles/fippsdownloadlists/assets/dllist.png',
 );
 
 /**

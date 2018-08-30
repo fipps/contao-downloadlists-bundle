@@ -1,6 +1,6 @@
 <?php
 /**
- * Contao DownloadlistsBundle Bundle
+ * Contao Downloadlists Bundle
  *
  * @copyright 2018 agentur fipps e.K.
  * @author    Arne Borchert

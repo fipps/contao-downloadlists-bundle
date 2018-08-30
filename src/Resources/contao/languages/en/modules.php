@@ -1,6 +1,6 @@
 <?php
 /**
- * Contao DownloadlistsBundle Bundle
+ * Contao Downloadlists Bundle
  *
  * @copyright 2018 agentur fipps e.K.
  * @author    Arne Borchert
@@ -12,12 +12,9 @@
 /**
  * Back end modules
  */
-$GLOBALS['TL_LANG']['MOD']['Downloads'] = array('Downloadlisten', 'Downloadlisten mit Vorschaubildern');
+$GLOBALS['TL_LANG']['MOD']['Downloads'] = array(
+    'Downloadlisten',
+    'Downloadlisten mit Vorschaubildern',
+);
 
 
-/**
- * Front end modules
- */
-//$GLOBALS['TL_LANG']['FMD'][''] = array('', '');
-
-?>

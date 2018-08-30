@@ -1,6 +1,6 @@
 <?php
 /**
- * Contao DownloadlistsBundle Bundle
+ * Contao Downloadlists Bundle
  *
  * @copyright 2018 agentur fipps e.K.
  * @author    Arne Borchert
@@ -19,7 +19,7 @@ use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
 /**
  * Plugin for the Contao Manager.
  *
- * @author Aren Borchert
+ * @author Arne Borchert
  */
 class Plugin implements BundlePluginInterface
 {
@@ -29,9 +29,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(FippsDownloadlistsBundle::class)
-                ->setLoadAfter([ContaoCoreBundle::class])
-                ->setReplace(['fipps_downloadlists'])
+            BundleConfig::create(FippsDownloadlistsBundle::class)->setLoadAfter([ContaoCoreBundle::class])->setReplace(['fipps_downloadlists']),
         ];
     }
 }

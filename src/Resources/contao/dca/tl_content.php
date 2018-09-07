@@ -1,11 +1,9 @@
 <?php
 /**
- * Contao Downloadlists Bundle
- *
- * @copyright 2018 agentur fipps e.K.
- * @author    Arne Borchert
- * @package   fipps\contao-downloadlists-bundle
- * @license   LGPL 3.0+
+ *  Copyright Information
+ *  @copyright: 2018 agentur fipps e.K.
+ *  @author   : Arne Borchert
+ *  @license  : LGPL 3.0+
  */
 
 // Palettes
